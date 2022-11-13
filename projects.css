@@ -2,37 +2,67 @@ body
 {
     background-color: rgb(20, 20, 20);
     margin: 0px;
+    padding: 0;
 }
 
-#menu
+.menu
 {
-    margin-left: 30px;
     height: 100vh;
     align-items: right;
+    margin-top: 75px;
+
+    background-image: url("images/projectbg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-items ul
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .menu-item
 {
+    transition: all .3s linear;
     color: white;
     font-size: 25px;
     font-family: "Ibarra Real Nova", serif;
     float: right;
     margin-right: 40px;
-    margin-top: 20px;
+    margin-top: -75px;
+    text-decoration: none;
+    padding: 24;
+}
+
+.menu-item:hover
+{
+    color: rgb(75, 75, 75);
+    font-size: 30;
+    margin-top: -79px;
+    margin-right: 30px;
+}
+
+
+.menu-logo
+{
+    transition: all .3s linear;
+    color: white;
+    font-size: 25px;
+    font-family: "Ibarra Real Nova", serif;
+    margin-left: 30px;
+    margin-top: -55px;
 
     display: inline-block;
     text-decoration: none;
     padding: 1;
 }
-.menu-logo
-{
-    color: white;
-    font-size: 25px;
-    font-family: "Ibarra Real Nova", serif;
-    margin-right: 40px;
-    margin-top: 20px;
 
-    display: inline-block;
-    text-decoration: none;
-    padding: 1
+.menu-logo:hover
+{
+    color: rgb(75, 75, 75);
+    font-size: 30;
+    margin-top: -57.5px;
+    margin-left: 20px;
 }
