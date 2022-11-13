@@ -1,0 +1,38 @@
+body
+{
+    background-color: rgb(20, 20, 20);
+    margin: 0px;
+}
+
+#menu
+{
+    margin-left: 30px;
+    height: 100vh;
+    align-items: right;
+}
+
+.menu-item
+{
+    color: white;
+    font-size: 25px;
+    font-family: "Ibarra Real Nova", serif;
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+
+    display: inline-block;
+    text-decoration: none;
+    padding: 1;
+}
+.menu-logo
+{
+    color: white;
+    font-size: 25px;
+    font-family: "Ibarra Real Nova", serif;
+    margin-right: 40px;
+    margin-top: 20px;
+
+    display: inline-block;
+    text-decoration: none;
+    padding: 1
+}
