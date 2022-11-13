@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
 body
 {
     background-color: rgb(20, 20, 20);
     margin: 0px;
     padding: 0;
+
+    font-family: 'DM Sans', sans-serif;
 }
 
 .menu
@@ -28,7 +32,6 @@ body
     transition: all .3s linear;
     color: white;
     font-size: 25px;
-    font-family: "Ibarra Real Nova", serif;
     float: right;
     margin-right: 40px;
     margin-top: -75px;
@@ -50,7 +53,6 @@ body
     transition: all .3s linear;
     color: white;
     font-size: 25px;
-    font-family: "Ibarra Real Nova", serif;
     margin-left: 30px;
     margin-top: -55px;
 
@@ -65,4 +67,34 @@ body
     font-size: 30;
     margin-top: -57.5px;
     margin-left: 20px;
+}
+
+.about_title
+{
+    color: white;
+    text-align: center;
+}
+
+.title
+{
+    font-size: 25px;
+
+    background: rgb(31, 31, 31);
+    width: 140px;
+    border-radius: 15px;
+    margin-left: 880px;
+}
+
+.desc
+{
+    font-size: 15px;
+
+    width: 640px;
+    padding: 10px;
+    background: rgb(31, 31, 31);
+    border-radius: 25px;
+    display: inline-block;
+
+    text-decoration: none;
+    color: white;
 }
