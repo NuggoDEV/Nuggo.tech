@@ -15,9 +15,7 @@ body
     align-items: right;
     margin-top: 75px;
 
-    background-image: url("images/aboutbg.png");
-    background-size: cover;
-    background-position: center;
+
 }
 
 .menu-items ul
