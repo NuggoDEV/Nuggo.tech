@@ -1,27 +1,51 @@
+<!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Nuggo.tech</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="navbar.css">
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="side-navbar.css">
 </head>
 <body>
-    <div class="menu">
-        <div id="menu-items">
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/nav bar icons/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"><img src="images/nav bar icons/close-icon.png"></i>
             <ul>
-                <a href="index.html" class="menu-logo">NuggoDEV</a>
-
-                <a href="youtube.html" class="menu-item">YouTube</a>
-                <a href="projects.html" class="menu-item">Projects</a>
-                <a href="about.html" class="menu-item">About</a>
-                <a href="index.html" class="menu-item"><b>Home</b></a>
-
+                <li><a href="index.html"><b>Home</b></a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="youtube.html">YouTube</a></li>
             </ul>
         </div>
-        <div class="index_title">
-            <h1 class="title"><b>Home</b></h1>
-            <p1 class="desc">Welcome to my website! Here you can find my <a href="youtube.html" class="link">YouTube</a> channel, <a href="projects.html" class="link">projects</a> and a short <a href="about.html" class="link">about me!</a></p1>
-        </div>
-    </div>
+        <i class="fa fa-bars" onclick="showMenu()"><img src="images/nav bar icons/menu-icon.png"></i>
+    </nav>
+
+<div class="text-box">
+    <h1>Welcome :D</h1>
+    <p1>Welcome to my website! You can find an about me, projects I've taken on and my YouTube channel.<br><br></p1>
+
+    <a href="projects.html" class="projectsButton">View My Projects To Learn More</a>
+</div>
+
+</section>
+
+<!------JavaScript For SideMenu------>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu()
+    {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu()
+    {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
 </body>
 </html>
